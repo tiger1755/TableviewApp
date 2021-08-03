@@ -2,14 +2,14 @@
 
 
 
-##### TableViewを作成する時はClassに以下の２つのProtocolを読み込む必要があります。
+## TableViewを作成する時はClassに以下の２つのProtocolを読み込む必要があります。
 
 ① UITableviewDelegate
 ② UITableviewDataSource
 
 
 
-#### TableViewを使うにはTableViewが持ついくつかのDelegateメソッドを使う必要があります。
+## TableViewを使うにはTableViewが持ついくつかのDelegateメソッドを使う必要があります。
 
 ① numberOfRowsInSection
 　セルの数を指定するメソッドです。
